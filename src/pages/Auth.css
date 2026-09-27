@@ -1,0 +1,307 @@
+/* ================================
+   Authentication Page
+================================ */
+
+.auth-page {
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+}
+
+
+/* ================================
+   Authentication Card
+================================ */
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.2);
+
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+
+/* ================================
+   Logo
+================================ */
+
+.auth-logo {
+  width: 70px;
+  height: 70px;
+
+  margin: 0 auto 15px;
+
+  background: #eff6ff;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 35px;
+}
+
+
+/* ================================
+   Heading
+================================ */
+
+.auth-card h1 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: 28px;
+}
+
+.auth-subtitle {
+  margin-top: 8px;
+
+  color: #6b7280;
+
+  font-size: 14px;
+}
+
+.auth-card h2 {
+  margin-top: 30px;
+  margin-bottom: 8px;
+
+  color: #1f2937;
+
+  font-size: 22px;
+}
+
+.auth-description {
+  color: #6b7280;
+
+  font-size: 14px;
+
+  margin-bottom: 25px;
+}
+
+
+/* ================================
+   Input Group
+================================ */
+
+.input-group {
+  text-align: left;
+
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  color: #374151;
+}
+
+.input-group input {
+  width: 100%;
+
+  padding: 13px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 9px;
+
+  font-size: 15px;
+
+  outline: none;
+
+  transition: 0.2s;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+
+  box-shadow:
+    0 0 0 3px rgba(
+      37,
+      99,
+      235,
+      0.12
+    );
+}
+
+
+/* ================================
+   Login / Create Account Button
+================================ */
+
+.auth-btn {
+  width: 100%;
+
+  padding: 13px;
+
+  margin-top: 8px;
+
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 9px;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.auth-btn:hover {
+  background: #1d4ed8;
+}
+
+
+/* ================================
+   Login / Signup Switch
+================================ */
+
+.auth-switch {
+  margin-top: 20px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 5px;
+
+  font-size: 14px;
+
+  color: #6b7280;
+}
+
+.auth-switch button {
+  background: none;
+
+  border: none;
+
+  color: #2563eb;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  padding: 0;
+}
+
+.auth-switch button:hover {
+  color: #1d4ed8;
+
+  text-decoration: underline;
+}
+
+
+/* ================================
+   Footer
+================================ */
+
+.auth-footer {
+  margin-top: 25px;
+
+  padding-top: 18px;
+
+  border-top: 1px solid #e5e7eb;
+}
+
+.auth-footer p {
+  margin: 0;
+
+  color: #6b7280;
+
+  font-size: 12px;
+}
+
+
+/* ================================
+   Mobile Responsive
+================================ */
+
+@media (max-width: 480px) {
+
+  .auth-page {
+    padding: 15px;
+  }
+
+  .auth-card {
+    padding: 28px 20px;
+  }
+
+  .auth-card h1 {
+    font-size: 24px;
+  }
+
+  .auth-card h2 {
+    font-size: 20px;
+  }
+  /* =========================================
+   FORGOT PASSWORD
+========================================= */
+
+    .forgot-password {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -8px;
+        margin-bottom: 10px;
+    }
+
+    .forgot-password button {
+        background: none;
+        border: none;
+        padding: 0;
+        color: #2563eb;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .forgot-password button:hover {
+        color: #1d4ed8;
+        text-decoration: underline;
+    }   
+
+}
